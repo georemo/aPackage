@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+func init() {
+	fmt.Println("init() a")
+}
+
 func A() {
 	fmt.Println("This is function A!")
 }
